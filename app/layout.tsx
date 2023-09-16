@@ -26,8 +26,10 @@
  
 'use client';
 
+import Footer from "@/components/FooterBox/Footer";
+import Navbar from "@/components/NavbarBox/Navbar";
 import StyledComponentsRegistry from "@/lib/registry";
-import GlobalStyles from "@/styles/GlobalStyles";
+import {GlobalStyles,Main} from "@/styles/GlobalStyles";
 
 
 
@@ -43,9 +45,9 @@ export default function RootLayout({
       <body>
         <StyledComponentsRegistry>
           <GlobalStyles />
-         
-            {children}
-         
+         <Navbar/>
+           <Main> {children}</Main>
+        <Footer/>
         </StyledComponentsRegistry>
       </body>
     </html>
