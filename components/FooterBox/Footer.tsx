@@ -86,7 +86,7 @@ const Footer = (props: Props) => {
                     </SocialIconLink>
                 </SocialIcons> */}
             </Wrapper>
-            <Text>@2022 Dramatic.All Rights Reserve</Text>
+            <Text color='#FFFFFF'>@2022 Dramatic.All Rights Reserve</Text>
         </Container>
     )
 }

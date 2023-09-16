@@ -7,7 +7,7 @@ export const Nav = styled.nav`
     height: 70px;
     background: linear-gradient(0.25turn, #000000BF, #6650A5BF);
     display: flex;
-    /* justify-content: space-between; */
+    z-index:1;
     align-items: center;
     box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
     

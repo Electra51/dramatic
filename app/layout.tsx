@@ -28,6 +28,7 @@
 
 import Footer from "@/components/FooterBox/Footer";
 import Navbar from "@/components/NavbarBox/Navbar";
+import SideBar from "@/components/SideBarBox/SideBar";
 import StyledComponentsRegistry from "@/lib/registry";
 import {GlobalStyles,Main} from "@/styles/GlobalStyles";
 
@@ -46,7 +47,10 @@ export default function RootLayout({
         <StyledComponentsRegistry>
           <GlobalStyles />
          <Navbar/>
-           <Main> {children}</Main>
+           <Main>
+            <SideBar/>
+             {children}
+           </Main>
         <Footer/>
         </StyledComponentsRegistry>
       </body>

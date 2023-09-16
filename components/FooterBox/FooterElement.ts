@@ -19,7 +19,7 @@ export const Wrapper = styled.div`
 `
 export const Text=styled.h3`
      text-align:center;
-     color:#FFFFFF;
+     color:${(props)=>props.color};
      font-weight: 400;
      font-size:12px;
      padding-bottom: 6px;

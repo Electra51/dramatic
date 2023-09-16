@@ -1,27 +1,22 @@
 'use client';
 
-import Navbar from '@/components/NavbarBox/Navbar';
+import Hero from '@/components/HeroSection/Hero';
+import Image from 'next/image';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.5rem /* 24px */;
+  position: relative;
 `;
 
-const H1= styled.h1`
- font-size: 20px;
- color: red;
-`;
 
 
 
 export default function Page() {
   return (
-    <Container>
+    
+      <Hero/>
       
-        <H1> Styled with Styled Components</H1>
-      </Container>
+   
     
   );
 }
