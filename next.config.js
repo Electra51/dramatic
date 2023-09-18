@@ -5,5 +5,11 @@ const nextConfig = {
     compiler: {
         styledComponents: true,
     },
+    images: {
+        domains: [
+            'i.pinimg.com',
+            'i.ibb.co'
+        ]
+    }
 };
 module.exports = nextConfig;

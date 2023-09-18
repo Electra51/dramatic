@@ -1,0 +1,17 @@
+[
+    {
+      "id": "mustWatch",
+      "name": "MOVIES YOU MUST WATCH"
+     
+    },
+    {
+     "id": "recommend",
+      "name": "RECOMMENDED FOR YOU"
+      
+    }
+    , {
+      "id": "classic",
+      "name": "BOLLYWOOD CLASSICS"
+     
+    }
+  ]

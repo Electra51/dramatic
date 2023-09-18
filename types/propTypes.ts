@@ -5,3 +5,10 @@ export interface NavLinkProps {
     large?: boolean;
     onClick?: React.MouseEventHandler<Element>;
 }
+
+export interface cardProps {
+    title: string;
+    year:number;
+    rating: number;
+    
+}
